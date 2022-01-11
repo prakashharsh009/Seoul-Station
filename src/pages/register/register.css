@@ -1,0 +1,134 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+    to right bottom,
+     #bb50e9,
+     #f53158);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: aliceblue;
+}
+
+.loginWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.loginLeft.loginRight{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLogo{
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+}
+
+.loginDesc{
+    position: absolute;
+    top: 250px;
+    font-size: 30px;
+    font-weight: 200;
+}
+.ityped-cursor {
+    
+    font-size: 90px;
+    font-weight: 100;
+}
+
+
+
+.loginBox{
+    position: absolute;
+    right: 100px;
+    top: 265px;
+    width: 30%;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.loginForgot{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+
+}
+.loginInput{
+    height: 50px;
+    border-radius:10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color :#4267B2;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+.loginRegisterButton{
+    width: 60%;
+    align-self: center;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color:#0F9D58;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+
+.ityped-cursor {
+    
+    opacity: 1;
+    -webkit-animation: blink 0.5s infinite;
+    -moz-animation: blink 0.5s infinite;
+    animation: blink 0.5s infinite;
+    animation-direction: alternate;
+}
+ 
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+ 
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+ 
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
