@@ -5,6 +5,8 @@ LINK - https://prakashharsh009-seoul-station.web.app/
 or Download the Zip File and run - "npm start"
 
 
+DEMO USER ID - prakashharsh009@gmail.com /  password - georgelucas
+
 REGISTER PAGE
 
 ![ss1](https://user-images.githubusercontent.com/70228834/148898020-1606226a-2872-4ee7-a5b2-429b08f99463.jpg)
